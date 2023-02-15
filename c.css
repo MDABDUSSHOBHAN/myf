@@ -2,3 +2,13 @@ h1{
     color: red;
     text-align: center;
 }
+:root{
+    
+    --primart-color:red;
+}
+.b{
+    border: 2px solid var(--primart-color);
+}
+h3{
+    color: var(--primart-color);
+}
